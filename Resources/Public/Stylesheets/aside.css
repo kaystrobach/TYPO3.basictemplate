@@ -1,0 +1,24 @@
+aside {
+	width:145px;
+	float:right;
+	margin-right:15px;
+	
+}
+aside, #aside th {
+	color:#444444;
+}
+
+aside ul {
+	padding-left:25px;
+	color:#999999;
+} 
+
+aside a {
+	color:#666666;
+	text-decoration:none;
+	text-shadow: #999999 1px 1px 3px;
+}
+aside a:hover {
+	color:#333333;
+	text-shadow: #444444 1px 1px 3px;
+}

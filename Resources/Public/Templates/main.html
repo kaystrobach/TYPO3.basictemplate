@@ -1,0 +1,10 @@
+{namespace basictemplate=Tx_Basictemplate_ViewHelpers}
+<f:layout  name="Default" />
+<f:section name="content">
+	<div id="content">
+		<basictemplate:format.show value="{content}"/>
+	</div>
+</f:section>
+<f:section name="aside">
+	<f:cObject typoscriptObjectPath="lib.aside"></f:cObject>
+</f:section>

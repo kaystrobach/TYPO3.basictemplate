@@ -1,0 +1,21 @@
+body {
+	margin-left:auto;
+	margin-right:auto;
+	width:960px;
+	font-family:helvetica;
+}
+.clearfix {
+	clear:both;
+}
+h1,h2,h3,h4,h5,h6 {
+	color:#666666;
+	text-shadow: #aaaaaa 3px 3px 5px;
+}
+
+.teaser {
+	margin-left:16px;
+	margin-right:16px;
+}
+.teaser div.typo3-message {
+	border-top:none;
+}

@@ -1,0 +1,2 @@
+# cat=templates/basic; type=boolean; label=add pagets to use be layouts instead of oldstyle columns 
+addPageTS = 1

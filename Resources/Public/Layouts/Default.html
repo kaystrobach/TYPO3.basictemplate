@@ -1,0 +1,32 @@
+{namespace basictemplate=Tx_Basictemplate_ViewHelpers}
+
+	<nav>
+		<f:cObject typoscriptObjectPath="lib.menu" />
+		<div class="clearfix"></div>
+	</nav>
+	<header>
+		<!--<f:cObject typoscriptObjectPath="lib.header">{data.title}</f:cObject>-->
+	</header>
+	<f:if condition="{content}">
+		<f:then>
+		</f:then>
+		<f:else>
+			<f:render partial="nocontentMessage" />
+		</f:else>
+	</f:if>
+	<article>
+		<f:if condition="{content}">
+			<f:then>
+				<f:render section="content" />
+			</f:then>
+			<f:else>
+				<f:render partial="nocontent" />
+			</f:else>
+		</f:if>
+	</article>
+	<aside>
+		<f:render section="aside" />
+	</aside>
+	<footer>
+		<f:cObject typoscriptObjectPath="lib.footer" />
+	</footer>
