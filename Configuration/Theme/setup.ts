@@ -157,9 +157,9 @@ tt_content.image.20 {
 		10 = FLUIDTEMPLATE
 		10 {
 			workOnSubpart   = DOCUMENT_BODY
-			file            = EXT:basictemplate/Resources/Public/Templates/main.html
-			layoutRootPath  = EXT:basictemplate/Resources/Public/Layouts/
-			partialRootPath = EXT:basictemplate/Resources/Public/Partials/
+			file            = EXT:basictemplate/Resources/Private/Templates/main.html
+			layoutRootPath  = EXT:basictemplate/Resources/Private/Layouts/
+			partialRootPath = EXT:basictemplate/Resources/Private/Partials/
 			variables {
 				content = CONTENT
 				content {
