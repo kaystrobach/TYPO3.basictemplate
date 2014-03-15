@@ -5,5 +5,5 @@ if (!defined ('TYPO3_MODE')) {
 }
 
 if(!t3lib_extMgm::isLoaded('themes')) {
-	t3lib_extMgm::addStaticFile($_EXTKEY, 'Configuration/Skin', 'basictemplate: pagedefinition');
+	t3lib_extMgm::addStaticFile($_EXTKEY, 'Configuration/TypoScript', 'basictemplate: pagedefinition');
 }
